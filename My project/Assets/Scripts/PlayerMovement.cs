@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float turnSpeed = 20f;
+    public float sprintMultiplier;
 
     Animator m_Animator;
     Rigidbody m_Rigidbody;
@@ -26,6 +27,9 @@ public class PlayerMovement : MonoBehaviour
 
         m_Movement.Set(horizontal, 0f, vertical);
         m_Movement.Normalize();
+
+        float speedMultiplier = Input.GetKey(KeyCode.LeftShift) ? sprintMultiplier : 1f;
+        m_Movement *= speedMultiplier;
 
         bool hasHorizontalInput = !Mathf.Approximately(horizontal, 0f);
         bool hasVerticalInput = !Mathf.Approximately(vertical, 0f);

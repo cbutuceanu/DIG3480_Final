@@ -5949,6 +5949,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JohnLemon
       objectReference: {fileID: 0}
+    - target: {fileID: 8575461769088919388, guid: 436933730222d1549be80e30a6d10907,
+        type: 3}
+      propertyPath: sprintMultiplier
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
