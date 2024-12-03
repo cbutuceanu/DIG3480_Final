@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 1061249701}
-  remainingTime: 120
+  remainingTime: 75
   gameEnding: {fileID: 842280282}
 --- !u!1 &170260273
 GameObject:
@@ -4590,10 +4590,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 53771971}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.02781653, y: 0.86970717}
-  m_AnchorMax: {x: 0.19700001, y: 0.96241426}
-  m_AnchoredPosition: {x: -4, y: 5}
-  m_SizeDelta: {x: 14, y: 2}
+  m_AnchorMin: {x: 0.011546512, y: 0.8751784}
+  m_AnchorMax: {x: 0.20154652, y: 0.9707856}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1061249701
 MonoBehaviour:
@@ -4648,7 +4648,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -5952,7 +5952,7 @@ PrefabInstance:
     - target: {fileID: 8575461769088919388, guid: 436933730222d1549be80e30a6d10907,
         type: 3}
       propertyPath: sprintMultiplier
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
